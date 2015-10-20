@@ -29,6 +29,8 @@ sleep 2
 #softwares
 echo  -e "${blue} G++ ${NC}"
 sudo apt-get -y install g++
+echo  -e "${blue} gedit ${NC}"
+sudo apt-get install gedit gedit-plugins
 echo  -e "${blue} Gparted ${NC}"
 sudo apt-get -y install gparted
 echo  -e "${blue} NTP ${NC}"
